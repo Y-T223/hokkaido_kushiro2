@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>釧路市立博物館｜春採湖を望む丘の上、1936年から続く北海道東部の知の館</title>
+<meta name="description" content="1936年設立、北海道東部で最も歴史のある博物館。マンモスの骨格レプリカ、釧路湿原の自然、アイヌ文化、タンチョウドームを三層で巡る。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14201f;--ink2:#1c2c2a;--paper:#f3ead8;--paper2:#e9dcc2;--gold:#b8934a;--gold2:#d8bb7e;--text:#2b2a26;--muted:#6f6857}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",serif;color:var(--text);background:var(--paper);line-height:2;letter-spacing:.04em}
+img{max-width:100%;display:block}
+a{color:inherit}
+.en{font-family:"Cormorant Garamond",serif;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);font-size:.85rem}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+section{padding:96px 0}
+h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:500;line-height:1.7;margin:8px 0 28px}
+.rule{width:56px;height:1px;background:var(--gold);margin:0 0 28px;position:relative}
+.rule::after{content:"";position:absolute;left:64px;top:-2px;width:5px;height:5px;background:var(--gold);transform:rotate(45deg)}
+header.nav{position:fixed;inset:0 0 auto;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:14px 28px;background:linear-gradient(rgba(20,32,31,.85),rgba(20,32,31,0));color:var(--paper)}
+header.nav b{font-weight:500;letter-spacing:.2em;font-size:.95rem}
+header.nav nav a{text-decoration:none;font-size:.8rem;margin-left:22px;opacity:.85}
+header.nav nav a:hover{color:var(--gold2)}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;color:var(--paper);background:var(--ink);overflow:hidden;padding:0}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:sepia(.35) contrast(1.05) brightness(.62)}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 35%,rgba(10,16,15,.75))}
+.hero .in{position:relative;z-index:2;text-align:center;width:100%;padding:0 24px}
+.hero h1{font-size:clamp(2rem,6vw,3.8rem);font-weight:500;letter-spacing:.25em;margin:18px 0}
+.hero p.lead{max-width:560px;margin:0 auto 36px;font-size:.98rem;opacity:.92}
+.frame{display:inline-block;padding:10px 22px;border:1px solid var(--gold2);color:var(--gold2);font-size:.8rem;letter-spacing:.3em}
+.btn{display:inline-block;text-decoration:none;padding:15px 40px;background:var(--gold);color:#1a1a14;font-weight:700;letter-spacing:.2em;font-size:.95rem;border:1px solid var(--gold);transition:.3s}
+.btn:hover{background:transparent;color:var(--gold)}
+.about{background:var(--paper)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.photo{position:relative;padding:14px;background:#fbf6ea;box-shadow:0 18px 40px rgba(40,30,10,.25)}
+.photo img{filter:sepia(.3) contrast(1.03);width:100%;aspect-ratio:4/5;object-fit:cover}
+.photo::after{content:"";position:absolute;inset:6px;border:1px solid var(--gold)}
+.year{font-family:"Cormorant Garamond",serif;font-size:4.5rem;line-height:1;color:var(--gold)}
+.strength{background:var(--ink);color:var(--paper)}
+.strength h2{color:var(--paper)}
+.strength .grid2{grid-template-columns:1fr 1.1fr}
+.strength .photo{background:#e8dcc2}
+.strength .photo img{aspect-ratio:3/2}
+.mam{border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);padding:22px 0;margin-top:26px;display:flex;gap:26px;text-align:center}
+.mam div{flex:1}
+.mam b{display:block;font-family:"Cormorant Garamond",serif;font-size:2rem;color:var(--gold2);font-weight:500;letter-spacing:.05em}
+.mam span{font-size:.75rem;opacity:.8}
+.floors{background:var(--paper2)}
+.fl{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:36px}
+.fl article{background:#fbf6ea;padding:34px 26px;border-top:3px solid var(--gold);box-shadow:0 8px 24px rgba(40,30,10,.12)}
+.fl .n{font-family:"Cormorant Garamond",serif;font-size:2.6rem;color:var(--gold);line-height:1}
+.fl h3{font-weight:500;font-size:1.1rem;margin:8px 0 10px}
+.fl p{font-size:.88rem;line-height:1.9;color:var(--muted)}
+.voice{background:var(--paper)}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:36px}
+.vs blockquote{background:#fbf6ea;padding:34px 30px;position:relative;border:1px solid #d9c9a4}
+.vs blockquote::before{content:"“";position:absolute;top:-6px;left:18px;font-size:4.5rem;color:var(--gold);font-family:"Cormorant Garamond",serif}
+.stars{color:var(--gold);letter-spacing:.2em;margin-bottom:10px}
+.vs p{font-size:.9rem;line-height:2}
+.info{background:var(--ink);color:var(--paper)}
+.info h2{color:var(--paper)}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{padding:18px 8px;text-align:left;border-bottom:1px solid rgba(216,187,126,.35);font-weight:400;font-size:.95rem;vertical-align:top}
+th{width:9em;color:var(--gold2);letter-spacing:.2em;font-size:.85rem}
+td a{color:var(--gold2)}
+.access{background:var(--paper2);text-align:center}
+.access .rule{margin:0 auto 28px}
+.access .rule::after{left:64px}
+.map{margin-top:32px;border:10px solid #fbf6ea;box-shadow:0 14px 36px rgba(40,30,10,.25);outline:1px solid var(--gold);outline-offset:-5px}
+.map iframe{display:block;width:100%;height:420px;border:0;filter:sepia(.25)}
+.mapbtn{margin-top:26px}
+.mapbtn .btn{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.mapbtn .btn:hover{background:transparent;color:var(--ink)}
+footer{background:#0e1716;color:var(--paper);text-align:center;padding:56px 24px 40px}
+.sns{display:flex;justify-content:center;gap:18px;margin:22px 0 26px}
+.sns a{width:46px;height:46px;border:1px solid var(--gold2);border-radius:50%;display:grid;place-items:center;color:var(--gold2);transition:.3s}
+.sns a:hover{background:var(--gold2);color:#0e1716}
+.sns svg{width:20px;height:20px;fill:currentColor}
+footer small{opacity:.6;font-size:.75rem}
+.fade{opacity:0;transform:translateY(24px);transition:opacity 1s,transform 1s}
+.fade.on{opacity:1;transform:none}
+@media(max-width:780px){
+ section{padding:68px 0}
+ .grid2,.strength .grid2,.vs,.fl{grid-template-columns:1fr}
+ .grid2{gap:32px}
+ header.nav nav{display:none}
+ th{width:6.5em}
+ .mam{gap:10px}
+}
+@media(prefers-reduced-motion:reduce){.fade{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+ <b>釧路市立博物館</b>
+ <nav><a href="#about">はじまり</a><a href="#mammoth">見どころ</a><a href="#floors">展示</a><a href="#voice">声</a><a href="#access">アクセス</a></nav>
+</header>
+
+<section class="hero">
+ <img src="images/1.jpg" alt="春採湖を望む高台に建つ釧路市立博物館">
+ <div class="in">
+  <span class="frame">SINCE 1936</span>
+  <h1>釧路市立博物館</h1>
+  <p class="lead">春採湖を望む丘の上で、<br>北海道東部の自然と、人の営みの記憶に出会う。</p>
+  <a class="btn" href="#access">アクセスを見る</a>
+ </div>
+</section>
+
+<section class="about" id="about">
+ <div class="wrap grid2">
+  <div class="fade">
+   <p class="en">History</p>
+   <h2>北海道東部で、<br>いちばん古い博物館。</h2>
+   <div class="rule"></div>
+   <div class="year">1936</div>
+   <p style="margin-top:14px">1936年7月14日、釧路市役所の水道建設事務所2階の一角で「釧路市立郷土博物館」として歩みを始めました。</p>
+   <p style="margin-top:14px">地域の自然史と人文史の調査研究を礎に、豊かな自然、歴史、アイヌ文化、産業の遺産を守り伝える施設へ。地域文化の振興と、市民が学べる場をつくりたいという願い、そして多くの先達や研究者の協力が、今日の充実した展示を築いてきました。</p>
+  </div>
+  <div class="photo fade"><img src="images/2.jpg" alt="館内に佇むマンモスの骨格レプリカ" loading="lazy"></div>
+ </div>
+</section>
+
+<section class="strength" id="mammoth">
+ <div class="wrap grid2">
+  <div class="photo fade"><img src="images/3.jpg" alt="タンチョウドームの展示" loading="lazy"></div>
+  <div class="fade">
+   <p class="en">Highlights</p>
+   <h2>見上げるほどの、マンモス。<br>そして、湿原の気配。</h2>
+   <div class="rule"></div>
+   <p>入口で来館者を迎えるのは、迫力あるマンモスの骨格レプリカ。時を超えた巨躯の前に立てば、展示を巡る旅がはじまります。</p>
+   <div class="mam">
+    <div><b>3.5m</b><span>体の長さ</span></div>
+    <div><b>2.9m</b><span>体の高さ</span></div>
+    <div><b>2.5m</b><span>牙の長さ</span></div>
+   </div>
+   <p style="margin-top:26px">標本や展示で北海道東部の自然と生態系を豊富に紹介。国の天然記念物・春採湖を望む高台という立地も、この館ならではの魅力です。</p>
+  </div>
+ </div>
+</section>
+
+<section class="floors" id="floors">
+ <div class="wrap">
+  <p class="en">Exhibition</p>
+  <h2>三つのフロアで巡る、釧路のすべて。</h2>
+  <div class="rule"></div>
+  <div class="fl">
+   <article class="fade"><div class="n">1F</div><h3>釧路の自然</h3><p>釧路湿原や阿寒湖、陸上動物から海洋動物、昆虫まで。剥製や標本が並び、シロナガスクジラの顎骨は圧巻です。</p></article>
+   <article class="fade"><div class="n">2F</div><h3>釧路の歴史</h3><p>アイヌ以前の先史時代の土器類から、明治以降の暮らしを伝える民具まで、土地の記憶をたどります。</p></article>
+   <article class="fade"><div class="n">3F</div><h3>アイヌ文化とタンチョウ</h3><p>アイヌに関する展示と、湿原の象徴タンチョウの展示。湿原に降り立ったような感覚のタンチョウドームがあります。</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="voice" id="voice">
+ <div class="wrap">
+  <p class="en">Voices</p>
+  <h2>訪れた方の声</h2>
+  <div class="rule"></div>
+  <div class="vs">
+   <blockquote class="fade">
+    <div class="stars">★★★★☆</div>
+    <p>フロアごとに展示のテーマがありました。アイヌ文化を勉強したくてまわっています。今回はアイヌの展示物を見せていただき良かったです。一階の剥製達はとても見応えがありました。北海道のことも色々と勉強できました。入る前は期待感ゼロでしたが、入ってみると楽しく勉強できました。</p>
+   </blockquote>
+   <blockquote class="fade">
+    <div class="stars">★★★★★</div>
+    <p>マンモスのお出迎えで受付をします。一階は釧路の自然、二階は釧路の歴史、三階はアイヌに関する展示と釧路湿原の象徴タンチョウの展示です。中でもシロナガスクジラの顎骨は圧巻。タンチョウドームでは湿原に降り立ったような感覚になれます。全体的にとても濃い内容の博物館でした。</p>
+   </blockquote>
+  </div>
+ </div>
+</section>
+
+<section class="info" id="info">
+ <div class="wrap">
+  <p class="en">Information</p>
+  <h2>施設情報</h2>
+  <div class="rule"></div>
+  <table>
+   <tr><th>施設名</th><td>釧路市立博物館</td></tr>
+   <tr><th>住所</th><td>北海道釧路市春湖台1-7</td></tr>
+   <tr><th>電話番号</th><td><a href="tel:0154415809">0154-41-5809</a></td></tr>
+   <tr><th>定休日</th><td>月曜・火曜</td></tr>
+   <tr><th>メール</th><td><a href="mailto:museum@city.kushiro.lg.jp">museum@city.kushiro.lg.jp</a></td></tr>
+   <tr><th>公式サイト</th><td><a href="https://www.city.kushiro.lg.jp/museum/" target="_blank" rel="noopener">https://www.city.kushiro.lg.jp/museum/</a></td></tr>
+  </table>
+ </div>
+</section>
+
+<section class="access" id="access">
+ <div class="wrap">
+  <p class="en">Access</p>
+  <h2>アクセス</h2>
+  <div class="rule"></div>
+  <p>北海道釧路市春湖台1-7</p>
+  <div class="map">
+   <iframe title="釧路市立博物館の地図" src="https://www.google.com/maps?q=%E5%8C%97%E6%B5%B7%E9%81%93%E9%87%A7%E8%B7%AF%E5%B8%82%E6%98%A5%E6%B9%96%E5%8F%B01-7%20%E9%87%A7%E8%B7%AF%E5%B8%82%E7%AB%8B%E5%8D%9A%E7%89%A9%E9%A4%A8&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+  </div>
+  <div class="mapbtn"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=%E9%87%A7%E8%B7%AF%E5%B8%82%E7%AB%8B%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%8C%97%E6%B5%B7%E9%81%93%E9%87%A7%E8%B7%AF%E5%B8%82%E6%98%A5%E6%B9%96%E5%8F%B01-7" target="_blank" rel="noopener">Googleマップで開く</a></div>
+ </div>
+</section>
+
+<footer>
+ <p class="en">Kushiro City Museum</p>
+ <div class="sns">
+  <a href="https://www.instagram.com/kushirocitymuseum/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 8.2A3.2 3.2 0 1112 8.8a3.2 3.2 0 010 6.4zM17.3 5.5a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4zM12 2.2c-3.2 0-3.6 0-4.8.1-3.3.1-4.9 1.7-5 5-.1 1.2-.1 1.6-.1 4.8s0 3.6.1 4.8c.1 3.3 1.7 4.9 5 5 1.2.1 1.6.1 4.8.1s3.6 0 4.8-.1c3.3-.1 4.9-1.7 5-5 .1-1.2.1-1.6.1-4.8s0-3.6-.1-4.8c-.1-3.3-1.7-4.9-5-5C15.6 2.2 15.2 2.2 12 2.2zm0 1.8c3.1 0 3.5 0 4.7.1 2.4.1 3.2 1 3.3 3.3.1 1.2.1 1.6.1 4.6s0 3.4-.1 4.6c-.1 2.3-.9 3.2-3.3 3.3-1.2.1-1.6.1-4.7.1s-3.5 0-4.7-.1c-2.4-.1-3.2-1-3.3-3.3C3.9 15.4 3.9 15 3.9 12s0-3.4.1-4.6C4.1 5.1 5 4.2 7.3 4.1 8.5 4 8.9 4 12 4z"/></svg></a>
+  <a href="https://x.com/kushiro_museum" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.2 2.3h3.3l-7.2 8.3 8.5 11.2h-6.7l-5.2-6.8-6 6.8H1.6l7.7-8.8L1.2 2.3h6.8l4.7 6.2zm-1.2 17.5h1.8L7 4.2H5.1z"/></svg></a>
+ </div>
+ <small>© Kushiro City Museum</small>
+</footer>
+
+<script>
+(function(){
+ var els=document.querySelectorAll('.fade');
+ if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('on')});return}
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.15});
+ els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
